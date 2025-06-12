@@ -1,9 +1,3 @@
-export class Molkky {
-  constructor() {
-    this.score = 0;
-  }
-
-  getScore() {
-    return this.score;
-  }
+export function addition(x, y) {
+		return x + y
 }

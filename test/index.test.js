@@ -1,8 +1,7 @@
-import { Molkky } from "../src/index";
+import { addition } from "../src/index";
 
 describe("Molkky", () => {
-  it("score is zero when starting", () => {
-    const party = new Molkky();
-    expect(party.getScore()).toBe(0);
+  it("doit additioner 2 entiers", () => {
+    expect(addition(9, 16)).toBe(25);
   });
 });
