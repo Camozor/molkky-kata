@@ -1,4 +1,4 @@
-import { addition } from "../src/index";
+import { addition } from "./molkky";
 
 describe("Molkky", () => {
   it("doit additioner 2 entiers", () => {
